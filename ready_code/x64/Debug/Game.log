@@ -1,0 +1,453 @@
+﻿  ConvertSketch.cpp
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,118): error C2065: Enemy: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,107): error C2923: std::shared_ptr: "Enemy" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,118): message : см. объявление "Enemy"
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,107): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,169): error C2061: синтаксическая ошибка: идентификатор "MapManager"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,7): error C3646: map: неизвестный спецификатор переопределения
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): error C2065: Mushroom: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2923: std::vector: "Mushroom" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): message : см. объявление "Mushroom"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,25): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.cpp(30,21): warning C4244: =: преобразование "float" в "unsigned short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.cpp(71,57): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.cpp(71,42): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+  DrawMap.cpp
+C:\Users\Incri\source\repos\Game\Game\DrawMap.hpp(5,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\DrawMap.hpp(5,12): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\Incri\source\repos\Game\Game\DrawMap.cpp(14,26): warning C4244: инициализация: преобразование "float" в "unsigned short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\DrawMap.cpp(16,29): warning C4244: инициализация: преобразование "float" в "unsigned short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\DrawMap.cpp(17,28): warning C4244: инициализация: преобразование "float" в "unsigned short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\DrawMap.cpp(32,56): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\DrawMap.cpp(32,41): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Enemy.cpp
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,7): error C3646: map: неизвестный спецификатор переопределения
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): error C2065: Mushroom: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2923: std::vector: "Mushroom" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): message : см. объявление "Mushroom"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,25): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+  Goomba.cpp
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,7): error C3646: map: неизвестный спецификатор переопределения
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): error C2065: Mushroom: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2923: std::vector: "Mushroom" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): message : см. объявление "Mushroom"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,25): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(89,50): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(89,40): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(114,30): error C2665: "MapManager::map_collision": ни одна перегруженная функция не может преобразовать все типы аргументов
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(36,30): message : может быть "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(114,30): message : "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const": невозможно преобразовать аргумент 1 из "initializer list" в "const std::vector &"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(115,7): message : Причина: невозможно преобразовать "initializer list" в "const std::vector"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(115,7): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(114,30): message : при попытке сопоставить список аргументов "(initializer list, sf::FloatRect)"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(168,34): error C2665: "MapManager::map_collision": ни одна перегруженная функция не может преобразовать все типы аргументов
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(36,30): message : может быть "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(168,34): message : "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const": невозможно преобразовать аргумент 1 из "initializer list" в "const std::vector &"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(169,11): message : Причина: невозможно преобразовать "initializer list" в "const std::vector"
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(169,11): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\Incri\source\repos\Game\Game\Goomba.cpp(168,34): message : при попытке сопоставить список аргументов "(initializer list, sf::FloatRect)"
+  Koopa.cpp
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,7): error C3646: map: неизвестный спецификатор переопределения
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): error C2065: Mushroom: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2923: std::vector: "Mushroom" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): message : см. объявление "Mushroom"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,25): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(81,55): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(81,45): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(93,50): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(93,40): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(117,32): error C2665: "MapManager::map_collision": ни одна перегруженная функция не может преобразовать все типы аргументов
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(36,30): message : может быть "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(117,32): message : "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const": невозможно преобразовать аргумент 1 из "initializer list" в "const std::vector &"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(118,9): message : Причина: невозможно преобразовать "initializer list" в "const std::vector"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(118,9): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(117,32): message : при попытке сопоставить список аргументов "(initializer list, sf::FloatRect)"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(165,32): error C2665: "MapManager::map_collision": ни одна перегруженная функция не может преобразовать все типы аргументов
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(36,30): message : может быть "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(165,32): message : "std::vector<sf::Uint8,std::allocator<sf::Uint8>> MapManager::map_collision(const std::vector &,const sf::FloatRect &) const": невозможно преобразовать аргумент 1 из "initializer list" в "const std::vector &"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(166,9): message : Причина: невозможно преобразовать "initializer list" в "const std::vector"
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(166,9): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\Incri\source\repos\Game\Game\Koopa.cpp(165,32): message : при попытке сопоставить список аргументов "(initializer list, sf::FloatRect)"
+  Main.cpp
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,118): error C2065: Enemy: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,107): error C2923: std::shared_ptr: "Enemy" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,118): message : см. объявление "Enemy"
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,107): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,169): error C2061: синтаксическая ошибка: идентификатор "MapManager"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(4,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): error C2065: Object: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2923: std::vector: "Object" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,15): message : см. объявление "Object"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(5,23): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,7): error C3646: map: неизвестный спецификатор переопределения
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(16,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(31,15): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(37,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): error C2065: Cell: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2923: std::vector: "Cell" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,23): message : см. объявление "Cell"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,16): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,43): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\MapManager.hpp(40,30): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): error C2065: Mushroom: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2923: std::vector: "Mushroom" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): message : см. объявление "Mushroom"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,25): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(46,3): error C2660: convert_sketch: функция не принимает 6 аргументов
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,6): message : см. объявление "convert_sketch"
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(46,3): message : при попытке сопоставить список аргументов "(unsigned char, unsigned short, std::vector<std::shared_ptr<_Ty>,std::allocator<std::shared_ptr<_Ty>>>, sf::Color, MapManager, Mario)"
+          with
+          [
+              _Ty=Enemy
+          ]
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(87,13): error C2660: convert_sketch: функция не принимает 6 аргументов
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,6): message : см. объявление "convert_sketch"
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(87,13): message : при попытке сопоставить список аргументов "(unsigned char, unsigned short, std::vector<std::shared_ptr<_Ty>,std::allocator<std::shared_ptr<_Ty>>>, sf::Color, MapManager, Mario)"
+          with
+          [
+              _Ty=Enemy
+          ]
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(103,9): error C2660: convert_sketch: функция не принимает 6 аргументов
+C:\Users\Incri\source\repos\Game\Game\ConvertSketch.hpp(3,6): message : см. объявление "convert_sketch"
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(103,9): message : при попытке сопоставить список аргументов "(unsigned char, unsigned short, std::vector<std::shared_ptr<_Ty>,std::allocator<std::shared_ptr<_Ty>>>, sf::Color, MapManager, Mario)"
+          with
+          [
+              _Ty=Enemy
+          ]
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(109,30): warning C4244: аргумент: преобразование "float" в "const _Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Incri\source\repos\Game\Game\Main.cpp(131,34): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  MapCollision.cpp
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(25,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(26,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(32,15): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(33,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(39,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(40,15): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(46,15): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(47,15): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(59,24): warning C4244: +=: преобразование "double" в "unsigned char", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\MapCollision.cpp(67,20): warning C4244: +=: преобразование "double" в "unsigned char", возможна потеря данных
+  Mario.cpp
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): error C2065: Mushroom: необъявленный идентификатор
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2923: std::vector: "Mushroom" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,15): message : см. объявление "Mushroom"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,8): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.hpp(35,25): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(30,33): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(139,63): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(139,48): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(144,62): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(144,52): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(171,54): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(171,44): warning C4244: аргумент: преобразование "float" в "const short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_begin": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1913,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1909,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_end": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1921,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1917,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,29): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,40): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,40): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,38): error C2100: недопустимое косвенное обращение
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(195,38): error C2440: инициализация: невозможно преобразовать "int" в "Mushroom &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(224,12): error C2662: void std::vector<_Ty,_Alloc>::clear(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(224,3): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(224,3): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1824,23): message : см. объявление "std::vector<_Ty,_Alloc>::clear"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(224,12): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_begin": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1913,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1909,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_end": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1921,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1917,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,29): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,40): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,40): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,38): error C2100: недопустимое косвенное обращение
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(255,38): error C2440: инициализация: невозможно преобразовать "int" в "Mushroom &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,22): error C2663: "std::vector<_Ty,_Alloc>::push_back": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(939,23): message : может быть "void std::vector<_Ty,_Alloc>::push_back(_Ty &&)"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,22): message : void std::vector<_Ty,_Alloc>::push_back(_Ty &&): невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,13): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,13): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(935,23): message : или       "void std::vector<_Ty,_Alloc>::push_back(const _Ty &)"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,22): message : void std::vector<_Ty,_Alloc>::push_back(const _Ty &): невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,13): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,13): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(453,22): message : при попытке сопоставить список аргументов "(Mushroom)"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_begin": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1913,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1909,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_end": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1921,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1917,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,31): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,42): error C3536: <begin>$L4: не может использоваться до инициализации
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,42): error C3536: <end>$L4: не может использоваться до инициализации
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,40): error C2100: недопустимое косвенное обращение
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(502,40): error C2440: инициализация: невозможно преобразовать "int" в "Mushroom &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(540,26): warning C4244: аргумент: преобразование "float" в "const unsigned short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(546,26): warning C4244: аргумент: преобразование "float" в "const unsigned short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,38): error C2663: "std::vector<_Ty,_Alloc>::begin": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1862,44): message : может быть "std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,38): message : std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,29): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1857,38): message : или       "std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,38): message : std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,29): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,29): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,38): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,57): error C2663: "std::vector<_Ty,_Alloc>::end": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1872,44): message : может быть "std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,57): message : std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,48): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,48): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1867,38): message : или       "std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,57): message : std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,48): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,48): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,57): message : при попытке сопоставить список аргументов "()"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(564,19): error C3861: remove_if: идентификатор не найден
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,14): error C2663: "std::vector<_Ty,_Alloc>::end": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1872,44): message : может быть "std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,14): message : std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,5): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,5): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1867,38): message : или       "std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,14): message : std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer,_Ty&,const _Ty&>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,5): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,5): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\Incri\source\repos\Game\Game\Mario.cpp(568,14): message : при попытке сопоставить список аргументов "()"
+  Mushroom.cpp
+C:\Users\Incri\source\repos\Game\Game\Mushroom.cpp(16,10): warning C4244: инициализация: преобразование "const float" в "unsigned short", возможна потеря данных
+C:\Users\Incri\source\repos\Game\Game\Mushroom.cpp(47,23): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
