@@ -19,13 +19,11 @@ int main()
 
 	unsigned short level_finish = 0;
 
-	//We'll use this to make the game framerate-independent.
 	std::chrono::microseconds lag(0);
 
 	std::chrono::steady_clock::time_point previous_time;
 
-	//Using smart pointer because I'm smart.
-	//(Because we need to store both Goomba and Koopa objects in the same vector).
+	//Vector to save and use "stars"
 	std::vector<std::shared_ptr<Enemy>> enemies;
 
 	sf::Color background_color = sf::Color(0, 219, 255);
@@ -52,14 +50,6 @@ int main()
 		lag += delta_time;
 
 		previous_time += delta_time;
-
-		//Soooooo, how was your day?
-		//Mine was good. I ate some cookies.
-		//Then I watched Youtube.
-		//...
-		//...
-		//...
-		//Yeah.
 
 		while (FRAME_DURATION <= lag)
 		{
@@ -94,7 +84,7 @@ int main()
 				}
 			}
 
-			//Once Mario goes beyond the finish, we move on to the next level.
+			//Next level path
 			if (CELL_SIZE * level_finish <= mario.get_x())
 			{
 				current_level++;
@@ -106,7 +96,7 @@ int main()
 				convert_sketch(current_level, level_finish, enemies, background_color, map_manager, mario);
 			}
 
-			//Keeping Mario at the center of the view.
+			//Keeping hero in the centre of screen
 			view_x = std::clamp<int>(round(mario.get_x()) - 0.5f * (SCREEN_WIDTH - CELL_SIZE), 0, CELL_SIZE * map_manager.get_map_width() - SCREEN_WIDTH);
 
 			map_manager.update();
@@ -122,7 +112,7 @@ int main()
 			{
 				if (1 == enemies[a]->get_dead(1))
 				{
-					//We don't have to worry about memory leaks since we're using SMART POINTERS!
+					//Getting rid of dead stars
 					enemies.erase(a + enemies.begin());
 
 					a--;
@@ -136,7 +126,7 @@ int main()
 				window.setView(view);
 				window.clear(background_color);
 
-				//If the background color is sf::Color(0, 0, 85), the level is underground.
+				//Changing the level depending on background color
 				map_manager.draw_map(1, sf::Color(0, 0, 85) == background_color, view_x, window);
 
 				mario.draw_mushrooms(view_x, window);
