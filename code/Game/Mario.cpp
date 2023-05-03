@@ -20,7 +20,7 @@ Mario::Mario() :
 	x(0),
 	y(0),
 	jump_timer(0),
-	powerup_state(0),
+	powerup_state(0), // state if he can shoot or not
 	death_timer(MARIO_DEATH_DURATION),
 	growth_timer(0),
 	invincible_timer(0),
@@ -49,7 +49,7 @@ float Mario::get_x() const
 
 void Mario::die(const bool i_instant_death)
 {
-	//Mario instantly dies and it doesn't matter if he's big or small.
+	//Hero instantly dies if instant death is called
 	if (1 == i_instant_death)
 	{
 		dead = 1;
@@ -63,7 +63,7 @@ void Mario::die(const bool i_instant_death)
 			texture.loadFromFile("Resources/Images/BigMarioDeath.png");
 		}
 	}
-	//Mario dies, unless he's big.
+	//Hero dies, if he isn't in power up state
 	else if (0 == growth_timer && 0 == invincible_timer)
 	{
 		if (0 == powerup_state)
@@ -85,11 +85,11 @@ void Mario::die(const bool i_instant_death)
 
 void Mario::draw(sf::RenderWindow& i_window)
 {
-	//When Mario is invincible, his sprite will blink.
+	//When Hero is invincible, his sprite will blink.
 	if (0 == invincible_timer / MARIO_BLINKING % 2)
 	{
 		bool draw_sprite = 1;
-		//When Mario is growing, his sprite will switch between being big and small.
+		//When hero gets powe up, his sprite will switch between being big and small.
 		bool draw_big = 0 == growth_timer / MARIO_BLINKING % 2;
 
 		sprite.setPosition(round(x), round(y));
@@ -242,11 +242,6 @@ void Mario::reset()
 	jump_timer = 0;
 	powerup_state = 0;
 
-	//If it wasn't for this, everything would be zerfect! (see what I did there?)
-	//...
-	//...
-	//...
-	//Yeah, I agree. That was bad.
 	death_timer = MARIO_DEATH_DURATION;
 	growth_timer = 0;
 	invincible_timer = 0;
@@ -277,7 +272,7 @@ void Mario::set_vertical_speed(const float i_value)
 
 void Mario::update(const unsigned i_view_x, MapManager& i_map_manager)
 {
-	//We make Mario bounce after updating all the enemies to prevent a bug (Go to Mario.hpp for explanation).
+	//We make hero bounce after updating all the enemies to prevent a bug (Go to Mario.hpp for explanation).
 	if (0 != enemy_bounce_speed)
 	{
 		vertical_speed = enemy_bounce_speed;
@@ -294,10 +289,8 @@ void Mario::update(const unsigned i_view_x, MapManager& i_map_manager)
 	{
 		bool moving = 0;
 
-		//So basically, the map_collision function returns a vector of numbers. Each number is a binary representation of the collisions in a single row. And we're storing that vector in this vector.
 		std::vector<unsigned char> collision;
 
-		//Oh yeah, the map_collision function can also return the coordinates of cells intersecting the hitbox. We need that too.
 		std::vector<sf::Vector2i> cells;
 
 		sf::FloatRect hit_box = get_hit_box();
@@ -431,7 +424,7 @@ void Mario::update(const unsigned i_view_x, MapManager& i_map_manager)
 
 				jump_timer = MARIO_JUMP_TIMER;
 			}
-			else if (0 < jump_timer) //The longer we press the jump button, the higher Mario jumps.
+			else if (0 < jump_timer) //The longer we press the jump button, the higher hero jumps.
 			{
 				vertical_speed = MARIO_JUMP_SPEED;
 
@@ -480,7 +473,7 @@ void Mario::update(const unsigned i_view_x, MapManager& i_map_manager)
 				{
 					i_map_manager.set_map_cell(cell.x, cell.y, Cell::ActivatedQuestionBlock);
 
-					//It can be either a mushroom or a coin, depending on the color of the pixel in the sketch.
+					//It can be either a power up or a coin, depending on the color of the pixel in the sketch.
 					if (sf::Color(255, 73, 85) == i_map_manager.get_map_sketch_pixel(cell.x, cell.y))
 					{
 						mushrooms.push_back(Mushroom(CELL_SIZE * cell.x, CELL_SIZE * cell.y));
@@ -538,7 +531,7 @@ void Mario::update(const unsigned i_view_x, MapManager& i_map_manager)
 
 			for (Mushroom& mushroom : mushrooms)
 			{
-				//Mushroom eating and becoming BIG, STRONG, MASCULINE!!!!
+				//getting power up and becoming able to shot ad destroy brick (asteroids) !!!!
 				if (1 == get_hit_box().intersects(mushroom.get_hit_box()))
 				{
 					mushroom.set_dead(1);
@@ -603,7 +596,7 @@ void Mario::update(const unsigned i_view_x, MapManager& i_map_manager)
 		death_timer = std::max(0, death_timer - 1);
 	}
 
-	//Deleting mushrooms from the vector.
+	//Deleting power up from the vector.
 	mushrooms.erase(remove_if(mushrooms.begin(), mushrooms.end(), [](const Mushroom& i_mushroom)
 		{
 			return 1 == i_mushroom.get_dead();
