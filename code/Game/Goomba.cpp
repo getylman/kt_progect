@@ -50,14 +50,14 @@ void Goomba::die(const unsigned char i_death_type)
 	{
 	case 0:
 	{
-		//Instant death. Setting dead to 1 will immediately delete the object.
+		//Instant death. Setting dead to 1 will immediately delete the object. NILL KIGGERS
 		dead = 1;
 
 		break;
 	}
 	case 1:
 	{
-		//Goomba is squished by Mario.
+		//Star is dead by Naby-Eu
 		if (0 == no_collision_dying)
 		{
 			death_timer--;
@@ -69,7 +69,7 @@ void Goomba::die(const unsigned char i_death_type)
 	{
 		if (GOOMBA_DEATH_DURATION == death_timer)
 		{
-			//Goomba dies from Koopa's shell.
+			//Star is dead by weapon - this code need to be done by Kanat
 			no_collision_dying = 1;
 
 			vertical_speed = 0.5f * MARIO_JUMP_SPEED;
@@ -89,7 +89,7 @@ void Goomba::die(const unsigned char i_death_type)
 
 void Goomba::draw(const unsigned i_view_x, sf::RenderWindow& i_window)
 {
-	//Making sure we don't draw Goomba outside the view.
+	//Making sure we don't draw Star outside the view.
 	if (-CELL_SIZE < round(y) && round(x) > static_cast<int>(i_view_x) - CELL_SIZE && round(x) < SCREEN_WIDTH + i_view_x && round(y) < SCREEN_HEIGHT)
 	{
 		if (1 == no_collision_dying || GOOMBA_DEATH_DURATION > death_timer)
@@ -109,11 +109,7 @@ void Goomba::draw(const unsigned i_view_x, sf::RenderWindow& i_window)
 
 void Goomba::update(const unsigned i_view_x, const std::vector<std::shared_ptr<Enemy>>& i_enemies, const MapManager& i_map_manager, Mario& i_mario)
 {
-	//I've already explained most of the code here in the Mario class.
-	//I know it's bad to write the same code multiple times.
-	//But I kinda don't care.
-
-	//Making sure we don't update Goomba outside the view.
+	//Making sure we don't update Star outside the view.
 	if (-CELL_SIZE < y && x >= static_cast<int>(i_view_x) - CELL_SIZE - ENTITY_UPDATE_AREA && x < ENTITY_UPDATE_AREA + SCREEN_WIDTH + i_view_x && y < SCREEN_HEIGHT)
 	{
 		std::vector<unsigned char> collision;
@@ -148,7 +144,7 @@ void Goomba::update(const unsigned i_view_x, const std::vector<std::shared_ptr<E
 			{
 				bool changed = 0;
 
-				//Here we're making sure that when Goomba falls on another enemy, they don't intersect.
+				//Here we're making sure that when Star falls on another enemy, they don't intersect.
 				if (0 == get_dead(0))
 				{
 					for (unsigned short a = 0; a < i_enemies.size(); a++)
@@ -227,17 +223,14 @@ void Goomba::update(const unsigned i_view_x, const std::vector<std::shared_ptr<E
 
 				if (0 == i_mario.get_dead() && 1 == get_hit_box().intersects(i_mario.get_hit_box()))
 				{
-					//If Mario is falling...
 					if (0 < i_mario.get_vertical_speed())
 					{
-						//... then we get squished.
 						die(1);
 
 						i_mario.set_vertical_speed(0.5f * MARIO_JUMP_SPEED);
 					}
 					else
 					{
-						//Otherwise, kill Mario.
 						i_mario.die(0);
 					}
 				}
