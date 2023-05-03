@@ -8,8 +8,6 @@
 
 void draw_map(unsigned i_view_x, const sf::Image& i_map_sketch, sf::RenderWindow& i_window, const sf::Texture& i_map_texture, const Map& i_map)
 {
-	//OPTIMIZATION!
-	//We'll only draw the part of the map that is visible on the screen.
 	unsigned short map_end = ceil((i_view_x + SCREEN_WIDTH) / static_cast<float>(CELL_SIZE));
 	unsigned short map_height = floor(i_map_sketch.getSize().y / 3.f);
 	unsigned short map_start = floor(i_view_x / static_cast<float>(CELL_SIZE));
@@ -34,7 +32,6 @@ void draw_map(unsigned i_view_x, const sf::Image& i_map_sketch, sf::RenderWindow
 			//Ignore the empty pixels.
 			if (255 == pixel.a)
 			{
-				//Here we're getting pixels around the pixel we're currently checking.
 				if (0 < a)
 				{
 					pixel_left = i_map_sketch.getPixel(a - 1, b + 2 * map_height);
@@ -55,9 +52,6 @@ void draw_map(unsigned i_view_x, const sf::Image& i_map_sketch, sf::RenderWindow
 					pixel_down = i_map_sketch.getPixel(a, 1 + b + 2 * map_height);
 				}
 
-				//Nothing complicated here.
-				//Just a bunch of if's and else's that determine the position of the tile we're gonna draw.
-				//Yeah, I know it's bad.
 				if (sf::Color(255, 255, 255) == pixel) //Clouds
 				{
 					sprite_x = 8;
@@ -140,10 +134,10 @@ void draw_map(unsigned i_view_x, const sf::Image& i_map_sketch, sf::RenderWindow
 				i_window.draw(cell_sprite);
 			}
 
-			//Yes, we're drawing the blocks separately from the background tiles.
+
 			if (Cell::Empty != i_map[a][b])
 			{
-				if (Cell::Pipe == i_map[a][b]) //Pipes
+				if (Cell::Pipe == i_map[a][b]) 
 				{
 					if (Cell::Pipe == i_map[a][b - 1])
 					{
