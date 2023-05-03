@@ -13,8 +13,6 @@
 #include "Koopa.hpp"
 #include "ConvertSketch.hpp"
 
-//One person asked, "Why don't you use Tiled Map Editor?"
-//My answer is, "Why should I work hard, when I don't have to work hard?"
 void convert_sketch(const unsigned char i_current_level, unsigned short& i_level_finish, std::vector<std::shared_ptr<Enemy>>& i_enemies, sf::Color& i_background_color, MapManager& i_map_manager, Mario& i_mario)
 {
 	unsigned short map_height;
@@ -22,7 +20,6 @@ void convert_sketch(const unsigned char i_current_level, unsigned short& i_level
 	i_map_manager.update_map_sketch(i_current_level);
 	i_map_manager.set_map_size(i_map_manager.get_map_sketch_width());
 
-	//We divide the height by 3 because the sketch stores the level as 3 layers: blocks, entities, and background tiles.
 	map_height = floor(i_map_manager.get_map_sketch_height() / 3.f);
 
 	i_background_color = i_map_manager.get_map_sketch_pixel(0, i_map_manager.get_map_sketch_height() - 1);
