@@ -2,6 +2,8 @@
 
 #include "Animation.hpp"
 
+// This block of code uses SFML features to correctly draw animations and sprites
+
 Animation::Animation(const unsigned short i_frame_width, const std::string& i_texture_location, const unsigned short i_animation_speed) :
 	flipped(0),
 	animation_iterator(0),
@@ -24,8 +26,6 @@ void Animation::draw(sf::RenderWindow& i_window)
 	}
 	else
 	{
-		//This is why I love SFML.
-		//It allows you to read the texture from right to left using negative numbers.
 		sprite.setTextureRect(sf::IntRect(frame_width * (1 + current_frame), 0, -frame_width, texture.getSize().y));
 	}
 
