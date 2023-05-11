@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/incri/source/repos/kt_progect/code/game/mapcollision.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6e6bed81945dd1dcf2b93a57eba4198184880cccac99852110bc605ae374d4e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/incri/source/repos/kt_progect/code/game/global.hpp"
+          },
+          "hashes": {
+            "sha-256": "ee0fcc3627f472b89b5e466bb3499ae7c77be3ebfb8a98e8627fd39d8af61728"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/incri/source/repos/kt_progect/code/game/mapcollision.hpp"
+          },
+          "hashes": {
+            "sha-256": "efce46b1e0b8f70b66dc3745c1254ed6c3b5f86d71ef41783cfda0e78f46cdce"
+          }
+        }
+      ]
+    }
+  ]
+}

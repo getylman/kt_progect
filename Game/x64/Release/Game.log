@@ -1,0 +1,31 @@
+﻿  Animation.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\Animation.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  ConvertSketch.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\ConvertSketch.cpp(4,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  DrawMap.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\DrawMap.cpp(4,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  Enemy.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\Enemy.cpp(3,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  OrdStar.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\OrdStar.cpp(4,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  ShootingStar.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\ShootingStar.cpp(4,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  Main.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\Main.cpp(5,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  MapCollision.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(26,13): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(27,13): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(33,12): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(34,13): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(40,13): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(41,12): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(47,12): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(48,12): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(60,19): warning C4244: +=: преобразование "double" в "unsigned char", возможна потеря данных
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapCollision.cpp(67,17): warning C4244: +=: преобразование "double" в "unsigned char", возможна потеря данных
+  MapManager.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\MapManager.cpp(4,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  Hero.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\Hero.cpp(4,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+  PowerUp.cpp
+C:\Users\Incri\source\repos\kt_progect\code\Game\PowerUp.cpp(3,10): fatal  error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,

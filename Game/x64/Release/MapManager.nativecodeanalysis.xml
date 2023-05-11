@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Incri\source\repos\kt_progect\code\Game\</FILEPATH>
+      <FILENAME>MapManager.cpp</FILENAME>
+      <LINE>369</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>MapManager::map_collision</FUNCTION>
+    <DECORATED>?map_collision@MapManager@@QEBA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV?$vector@W4Cell@@V?$allocator@W4Cell@@@std@@@3@AEBV?$Rect@M@sf@@@Z</DECORATED>
+    <FUNCLINE>352</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Incri\source\repos\kt_progect\code\Game\</FILEPATH>
+      <FILENAME>MapManager.cpp</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>MapManager::map_collision</FUNCTION>
+    <DECORATED>?map_collision@MapManager@@QEBA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV?$vector@W4Cell@@V?$allocator@W4Cell@@@std@@@3@AEBV?$Rect@M@sf@@@Z</DECORATED>
+    <FUNCLINE>352</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Incri\source\repos\kt_progect\code\Game\</FILEPATH>
+      <FILENAME>MapManager.cpp</FILENAME>
+      <LINE>405</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>MapManager::map_collision</FUNCTION>
+    <DECORATED>?map_collision@MapManager@@QEBA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV?$vector@W4Cell@@V?$allocator@W4Cell@@@std@@@3@AEAV?$vector@V?$Vector2@H@sf@@V?$allocator@V?$Vector2@H@sf@@@std@@@3@AEBV?$Rect@M@sf@@@Z</DECORATED>
+    <FUNCLINE>384</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Incri\source\repos\kt_progect\code\Game\</FILEPATH>
+      <FILENAME>MapManager.cpp</FILENAME>
+      <LINE>411</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>MapManager::map_collision</FUNCTION>
+    <DECORATED>?map_collision@MapManager@@QEBA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV?$vector@W4Cell@@V?$allocator@W4Cell@@@std@@@3@AEAV?$vector@V?$Vector2@H@sf@@V?$allocator@V?$Vector2@H@sf@@@std@@@3@AEBV?$Rect@M@sf@@@Z</DECORATED>
+    <FUNCLINE>384</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
