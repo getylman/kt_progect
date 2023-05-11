@@ -1,5 +1,0 @@
-06.02.23 22:11 https://www.youtube.com/watch?v=g31NTpq9p-o&ab_channel=CobraCode
-               ссылка на видос с гайдом на 2д платформер на UE
-
-08.02.23 19:41 https://www.youtube.com/watch?v=BySDfVNljG8&list=PL6xSOsbVA1eb_QqMTTcql_3PdOiE928up&ab_channel=SurajSharma
-               ссылка на плейлист с гайдом 2д платформер с использованием библиотеки SFML
